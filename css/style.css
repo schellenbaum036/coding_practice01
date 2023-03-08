@@ -1,14 +1,2 @@
 @charset "UTF-8";
 
-header{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    background-color: aqua;
-}
-
-.navigation{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;    
-}
