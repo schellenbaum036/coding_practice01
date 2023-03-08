@@ -1,1 +1,11 @@
 @charset "UTF-8";
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;    
+}
