@@ -3,9 +3,11 @@
 header{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .navigation{
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
+    flex-direction: row;    
 }
