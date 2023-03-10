@@ -37,5 +37,15 @@ header{
 }
 
 .fv h2{
-    background-color: white;
+    width: 449px;
+    height: 136px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    display: grid;
+    place-items: center;
 }
+
