@@ -1,11 +1,22 @@
 @charset "UTF-8";
 
 header{
+    width: 1440px;
+    height: 74px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.site_logo{
+    margin: 0 30px;
 }
 
 .navigation{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.navigation li{
+    margin: 0 30px;
 }
