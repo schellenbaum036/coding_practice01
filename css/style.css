@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
-header{
+body{
     width: 1440px;
+}
+
+header{
+    width: inherit;
     height: 74px;
     display: flex;
     justify-content: space-between;
@@ -19,4 +23,19 @@ header{
 
 .navigation li{
     margin: 0 30px;
+}
+
+.fv{
+    width: 1440px;
+    height: 1000px;
+    background: url("../images/fv-bgi@2x.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.fv h2{
+    background-color: white;
 }
