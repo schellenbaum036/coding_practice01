@@ -98,3 +98,28 @@ header{
     display: inline-block;
     background-color: aquamarine;
 }
+
+.news{
+    text-align: center;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+
+.box img{
+    width: 400px;
+    height: 400px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.name,.tel,.mail,.remarks{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
