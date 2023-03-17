@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    width: 1440px;
+    width: 100vw;
 }
 
 header{
@@ -26,8 +26,8 @@ header{
 }
 
 .fv{
-    width: 1440px;
-    height: 1000px;
+    width: inherit;
+    height: 100vh;
     background: url("../images/fv-bgi@2x.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -37,11 +37,12 @@ header{
 }
 
 .fv h2{
-    width: 449px;
-    height: 136px;
+    width: auto;
+    height: auto;
+    padding: 35px 40px;
     color: white;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 50px;
     border-color: white;
     border-style: solid;
     border-width: 3px;
@@ -51,6 +52,7 @@ header{
 
 .about{
     text-align: center;
+    margin: 100px 0 200px;
 }
 
 .introduction{
@@ -125,5 +127,4 @@ label,input{
     display: flex;
     flex-direction: column;
     justify-content: left;
-
 }
