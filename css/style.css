@@ -1,19 +1,21 @@
 @charset "UTF-8";
 
 body{
-    width: 1440px;
+    width: 100vw;
 }
 
 header{
     width: inherit;
-    height: 74px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    background-color: white;
 }
 
 .site_logo{
-    margin: 0 30px;
+    margin: 20px 30px;
 }
 
 .navigation{
@@ -26,8 +28,8 @@ header{
 }
 
 .fv{
-    width: 1440px;
-    height: 1000px;
+    width: inherit;
+    height: 100vh;
     background: url("../images/fv-bgi@2x.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +39,7 @@ header{
 }
 
 .fv h2{
-    width: 449px;
+    width: 40vw;
     height: 136px;
     color: white;
     font-weight: bold;
