@@ -9,6 +9,7 @@ body{
 
 header{
     color: #FFFFFF;
+    font-weight: 700;
     width: inherit;
     height: auto;
     display: flex;
@@ -28,6 +29,10 @@ header{
 
 .navigation li{
     margin: 0 30px;
+}
+
+.introduction{
+    max-width: 1030px;
 }
 
 .fv{
