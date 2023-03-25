@@ -69,15 +69,27 @@ header{
     padding-bottom: 70px;
 }
 
+.about h3{
+    width: 288px;
+    height: 83px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .introduction{
     text-align: left;
     width: 1030px;
-    height: 335px;
+    height: 217px;
     margin: auto;
 }
 
 .service{
     text-align: center;
+}
+
+.service h2{
+    font-size: 36px;
+    padding-bottom: 70px;
 }
 
 .over{
