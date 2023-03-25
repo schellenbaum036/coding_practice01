@@ -35,7 +35,7 @@ header{
     max-width: 1030px;
 }
 
-.fv{
+.main-visual{
     width: inherit;
     height: 100vh;
     background: url("../images/fv-bgi@2x.jpg");
@@ -46,7 +46,7 @@ header{
     place-items: center;
 }
 
-.fv h2{
+.main-visual h2{
     width: 449px;
     height: 136px;
     color: white;
