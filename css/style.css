@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 body{
-    width: 100vw;
+    width: 1440px;
     font-family: 'Roboto','Noto Sans JP', sans-serif;
 }
 
@@ -11,7 +11,7 @@ header{
     color: #FFFFFF;
     font-weight: 700;
     width: inherit;
-    height: auto;
+    height: 74px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,12 +61,18 @@ header{
 
 .about{
     text-align: center;
-    margin: 100px 0 200px;
+    margin-top: 100px;
+}
+
+.about h2{
+    font-size: 36px;
+    padding-bottom: 70px;
 }
 
 .introduction{
     text-align: left;
     width: 1030px;
+    height: 335px;
     margin: auto;
 }
 
