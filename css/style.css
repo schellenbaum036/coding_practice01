@@ -163,24 +163,46 @@ header{
 }
 
 .news{
-    margin-top: 150px;
+    width: 1030px;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.news h2{
+    font-size: 36px;
+    font-weight:400;
+    margin-bottom: ;
+}
+
+.main-contents{
+    display: flex;
+    justify-content: space-between;
 }
 
 .box{
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     display: inline-block;
 }
 
 .box img{
-    width: 400px;
-    height: 400px;
+    width: inherit;
+    height: auto;
+}
+
+.box p{
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 25px;
+    letter-spacing: 50;
+    margin: 25px 35px;
+    text-align: left;
 }
 
 .contact{
     text-align: center;
-    width: 70%;
+    width: 1030px;
     margin: 0 auto;
 }
 
