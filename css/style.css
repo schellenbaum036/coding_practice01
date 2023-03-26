@@ -74,6 +74,16 @@ header{
     height: 83px;
     font-size: 24px;
     font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 100;
+    margin-bottom: 40px;
+}
+
+.about p{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 50;
 }
 
 .introduction{
@@ -85,6 +95,7 @@ header{
 
 .service{
     text-align: center;
+    margin-top: 150px;
 }
 
 .service h2{
@@ -118,19 +129,25 @@ header{
 }
 
 .when,.after{
-    font-size: 34px;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 40px;
+    line-height: 48px;
+    letter-spacing: 100;
 }
 
 .before-support,.after-support{
     font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 50;
 }
 
 .under{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
 }
 
 .under img{
