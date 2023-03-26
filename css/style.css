@@ -109,10 +109,21 @@ header{
     height: 240px;
 }
 .oversentense{
+    text-align: left;
     width: 480px;
     height: 205px;
     display: inline-block;
-    background-color: aquamarine;
+    
+}
+
+.when,.after{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.before-support,.after-support{
+    font-size: 14px;
 }
 
 .under{
@@ -130,7 +141,7 @@ header{
     width: 480px;
     height: 205px;
     display: inline-block;
-    background-color: aquamarine;
+    
 }
 
 .news{
