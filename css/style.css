@@ -212,3 +212,8 @@ label,input{
     flex-direction: column;
     justify-content: left;
 }
+
+.name,.tel,.mail,.remarks{
+    display: flex;
+    justify-content: space-between;
+}
