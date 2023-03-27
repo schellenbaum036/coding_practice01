@@ -216,5 +216,7 @@ label,input{
 }
 
 .name,.tel,.mail,.remarks{
-    text-align: left;    
+    text-align: left; 
+    width: 700px;
+
 }
