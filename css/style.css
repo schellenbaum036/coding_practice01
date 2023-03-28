@@ -200,14 +200,14 @@ header{
     text-align: left;
 }
 
+/* ここからフォーム */
+
 .contact{
     text-align: center;
     width: 1030px;
     margin: 0 auto;
     
 }
-
-
 
 .name,.tel,.mail,.remarks{
     text-align: left; 
