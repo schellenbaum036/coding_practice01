@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @media screen and (max-width:700px){
-    body{
+    .news{
         background-color: red;
     }
 }
