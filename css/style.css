@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 body{
-    width: 100vw;
+    width: 100vh;
     font-family: 'Roboto','Noto Sans JP', sans-serif;
 }
 
@@ -60,6 +60,7 @@ header{
 }
 
 .about{
+    width: inherit;
     text-align: center;
     margin-top: 100px;
 }
